@@ -2,9 +2,7 @@
 
 ## Description
 
-This is a web page that displays a PacMan game where the user can add PacMen to the screen and start the game. The HTML code contains a title, two buttons for adding PacMen and starting the game, and a JavaScript file named "pacmen.js" that controls the game's behavior. The JavaScript code defines several variables and functions that create and move the PacMen across the screen. The makePac() function creates a PacMan at a random position on the screen with a random velocity, which is added to the pacMen array. The update() function updates the position of each PacMan every 20 milliseconds, checks for collisions with the screen boundaries, and changes the PacMan's direction if it hits the edge of the screen. The checkCollisions() function detects if a PacMan has collided with the screen boundaries and changes its direction accordingly. The PacMen are displayed as images on the screen with the help of HTML elements that are created dynamically in the makePac() function.
-
-The CSS code defines the style for the buttons and the PacMan game's background and title. The buttons are stylized with a blue background color, a white font color, and rounded borders. The title is stylized with a yellow color and a pixelated font named "Press Start 2P". The background color of the game is black.
+The webpage has a PacMan image moving left and right across the width of the page, with two buttons above it to add more PacMen and to start the game. The JavaScript code controls the movement of the PacMan images. The code checks for collisions with the window boundaries and changes the direction of the PacMan images accordingly. The CSS code defines the styling of the webpage, including the background color, font styles, button styles, and PacMan image position.
 
 ## Roadmap of future improvements
 
