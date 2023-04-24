@@ -4,6 +4,10 @@
 
 The webpage has a PacMan image moving left and right across the width of the page, with two buttons above it to add more PacMen and to start the game. The JavaScript code controls the movement of the PacMan images. The code checks for collisions with the window boundaries and changes the direction of the PacMan images accordingly. The CSS code defines the styling of the webpage, including the background color, font styles, button styles, and PacMan image position.
 
+## How-to-Run
+
+The project requires no dependencies or setup before it can be run. Fork and then clone the repository to your local machine. Open the "index.html" file to load the webpage into your local browser.
+
 ## Roadmap of future improvements
 
 Creating a PacMan themed background instead of all black. Would like to add PacMen images facing different directions. Plan on adding an “end game” button to stop the animations and clear them from the screen.
